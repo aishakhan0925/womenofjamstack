@@ -7,6 +7,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "./src/_fonts": "/fonts" });
   eleventyConfig.addPassthroughCopy({ "./src/_public": "/" });
 
+  eleventyConfig.addPassthroughCopy({ "./src/_data/images": "/images" });
+
   return {
     dir: {
       data: "_data",

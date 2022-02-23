@@ -1,0 +1,23 @@
+.grid {
+  list-style: none;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.grid__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid__itemImgWrapper {
+  height: 20rem;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.grid__itemSocials {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
