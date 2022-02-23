@@ -11,7 +11,7 @@ templateEngineOverride: njk
  {% for key, profile in profiles %}
     <li class="grid__item">
       <div class="grid__itemImgWrapper">
-        <img src="/images/{{ key }}.png" alt="{{ profile.name }}" />
+        <img src="/images/{{ key }}.jpg" alt="{{ profile.name }}" />
       </div>
       <h2 class="grid__itemName">{{ profile.name }}</h2>
       <p class="grid__itemBio">{{ profile.bio }}</p>
