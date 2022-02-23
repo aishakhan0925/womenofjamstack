@@ -1,0 +1,5 @@
+# *
+User-agent: *
+
+# Host
+Host: https://womenofjamstack.com
