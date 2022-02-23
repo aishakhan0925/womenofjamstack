@@ -90,6 +90,10 @@ img {
   flex-grow: 1;
 }
 
+.grid__itemJob {
+  margin-bottom: 1rem;
+}
+
 .grid__itemSocials {
   display: flex;
   flex-direction: row;

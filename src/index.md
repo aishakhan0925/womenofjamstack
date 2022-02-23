@@ -15,6 +15,7 @@ templateEngineOverride: njk
       </div>
       <h2 class="grid__itemName">{{ profile.name }}</h2>
       <p class="grid__itemBio">{{ profile.bio }}</p>
+      <p class="grid__itemJob">{{ profile.jobTitle }} @ {{ profile.company }}</p>
       <div class="grid__itemSocials">
       {% if profile.twitterUsername.length > 0 %}
         <a href="https://twitter.com/{{ profile.twitterUsername }}" target="_blank">TWITTER</a>
