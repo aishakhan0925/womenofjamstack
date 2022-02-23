@@ -13,8 +13,8 @@ templateEngineOverride: njk
       <div class="grid__itemImgWrapper">
         <img src="/images/{{ key }}.png" alt="{{ profile.name }}" />
       </div>
-      <h2>{{ profile.name }}</h2>
-      <p>{{ profile.bio }}</p>
+      <h2 class="grid__itemName">{{ profile.name }}</h2>
+      <p class="grid__itemBio">{{ profile.bio }}</p>
       <div class="grid__itemSocials">
       {% if profile.twitterUsername.length > 0 %}
         <a href="https://twitter.com/{{ profile.twitterUsername }}" target="_blank">TWITTER</a>
@@ -31,5 +31,4 @@ templateEngineOverride: njk
       </div>
     </li>
 {% endfor %}
-
 <ul>

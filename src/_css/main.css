@@ -70,12 +70,24 @@ img {
 .grid__item {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 
 .grid__itemImgWrapper {
   height: 20rem;
   overflow: hidden;
   margin-bottom: 1rem;
+}
+
+.grid__itemName {
+  margin-bottom: 1rem;
+}
+
+.grid__itemBio {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .grid__itemSocials {
