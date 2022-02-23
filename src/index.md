@@ -13,9 +13,15 @@ templateEngineOverride: njk
       <div>
         <h2>{{ profile.name }}</h2>
         <p>{{ profile.bio }}</p>
-        <a href="https://twitter.com/{{ profile.twitterUsername }}" target="_blank">TWITTER</a>
-        <a href="https://github.com/{{ profile.githubUsername }}" target="_blank">GITHUB</a>
-        <a href="{{ profile.website }}" target="_blank">WEBSITE</a>
+        {% if profile.twitterUsername.length > 0 %}
+          <a href="https://twitter.com/{{ profile.twitterUsername }}" target="_blank">TWITTER</a>
+        {% endif %}
+        {% if profile.githubUsername.length > 0 %}
+          <a href="https://github.com/{{ profile.githubUsername }}" target="_blank">GITHUB</a>
+        {% endif %}
+        {% if profile.website.length > 0 %}
+          <a href="{{ profile.website }}" target="_blank">WEBSITE</a>
+        {% endif %}
       </div>
     </li>
 {% endfor %}
