@@ -64,6 +64,7 @@
   font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
+
   &:focus {
     @include focus($bgColor: var(--color-page-bg));
   }

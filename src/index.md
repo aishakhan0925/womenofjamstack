@@ -18,6 +18,7 @@ templateEngineOverride: njk
   </div>
   <div class="hero__card">
     <div class="profiles__item profiles__item--founder">
+      <span class="profiles__founderLabel">Founder</span>
       <span class="profiles__itemImgWrapper">
         <img src="/images/founder.jpg" alt="{{ founder.name }}" />
       </span>

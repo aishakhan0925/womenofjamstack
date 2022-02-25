@@ -3,11 +3,12 @@
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4rem;
+  padding: 2rem;
 
   @media screen and (min-width: 900px) {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 2rem;
+    gap: 3rem;
   }
 }
 
