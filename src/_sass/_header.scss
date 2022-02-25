@@ -1,6 +1,6 @@
 .header {
   padding: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -19,5 +19,9 @@
     svg {
       width: unset;
     }
+  }
+
+  @media screen and (min-width: 900px) {
+    margin-bottom: 4rem;
   }
 }
