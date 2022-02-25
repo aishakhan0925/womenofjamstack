@@ -11,6 +11,8 @@ html {
 body {
   font-size: 1rem;
   padding: 1rem;
+  font-family: var(--font-family-body);
+  background-color: var(--color-page-bg);
 }
 
 a {
@@ -28,7 +30,7 @@ a:hover {
 a:focus {
   outline: transparent;
   outline-style: solid;
-  box-shadow: #fff 0 0 0 0.125rem, red 0 0 0 0.375rem;
+  box-shadow: #fff 0 0 0 0.125rem, var(--color-pink) 0 0 0 0.375rem;
   transition: box-shadow 0.2s ease-in-out;
 }
 
@@ -38,6 +40,7 @@ h3,
 h4,
 h6,
 h6 {
+  font-family: var(--font-family-heading);
   margin: 0;
 }
 

@@ -1,38 +1,72 @@
-.grid {
+.profiles {
+  padding-inline-start: 0;
   list-style: none;
   display: grid;
   gap: 2rem;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-.grid__item {
+.profiles__item {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  background-image: var(--gradient-pink);
+  border-radius: var(--border-radius-base);
+  padding: 0.75rem;
+  box-shadow: 0.75rem 0.75rem 0 0 #000;
 }
 
-.grid__itemImgWrapper {
-  height: 20rem;
+.profiles__item--founder {
+  max-width: 25rem;
+  transform: rotate(4deg);
+}
+
+.profiles__item:nth-child(2n) {
+  background-image: var(--gradient-blue);
+}
+
+.profiles__itemImgWrapper {
   overflow: hidden;
-  margin-bottom: 1rem;
+  margin-bottom: 0.875rem;
+  border-radius: var(--border-radius-base);
+  aspect-ratio: 388/283;
+
+  img {
+    width: 100%;
+  }
 }
 
-.grid__itemName {
-  margin-bottom: 1rem;
-}
-
-.grid__itemBio {
-  margin-bottom: 1rem;
+.profiles__itemTextWrapper {
+  background-color: var(--color-text-bg);
+  border-radius: var(--border-radius-base);
+  padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
-.grid__itemJob {
-  margin-bottom: 1rem;
+.profiles__itemName {
+  margin-bottom: 0.75rem;
+  color: var(--color-text-fg);
 }
 
-.grid__itemSocials {
+.profiles__itemBio {
+  color: var(--color-text-fg);
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-weight: var(--font-weight-bold);
+  word-break: break-word;
+}
+
+.profiles__itemJob {
+  color: var(--color-text-fg);
+  margin-bottom: 1.75rem;
+}
+
+.profiles__itemSocials {
+  color: var(--color-text-fg);
   display: flex;
   flex-direction: row;
   gap: 1rem;

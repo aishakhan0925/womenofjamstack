@@ -1,5 +1,50 @@
 :root {
-  /* todo */
+  --color-grey: #121a39;
+  --color-pink: #f0047f;
+  --color-orange: #fc814a;
+  --color-blue: #0090ca;
+  --color-turquoise: #00bfad;
+
+  --gradient-pink: linear-gradient(
+    145deg,
+    hsl(329deg 97% 48%) 0%,
+    hsl(335deg 92% 54%) 21%,
+    hsl(341deg 95% 58%) 30%,
+    hsl(346deg 97% 61%) 39%,
+    hsl(352deg 99% 64%) 46%,
+    hsl(358deg 100% 67%) 54%,
+    hsl(4deg 100% 67%) 61%,
+    hsl(9deg 100% 66%) 69%,
+    hsl(14deg 99% 65%) 79%,
+    hsl(19deg 97% 64%) 100%
+  );
+
+  --gradient-blue: linear-gradient(
+    145deg,
+    hsl(197deg 100% 40%) 0%,
+    hsl(196deg 100% 40%) 21%,
+    hsl(194deg 100% 40%) 30%,
+    hsl(192deg 100% 40%) 39%,
+    hsl(190deg 100% 39%) 46%,
+    hsl(187deg 100% 38%) 54%,
+    hsl(184deg 100% 38%) 61%,
+    hsl(181deg 100% 36%) 69%,
+    hsl(178deg 100% 37%) 79%,
+    hsl(174deg 100% 37%) 100%
+  );
+
+  --border-radius-base: 1rem;
+
+  --font-family-heading: "Bungee", cursive;
+  --font-family-body: "Roboto Slab", serif;
+
+  --font-weight-normal: 300;
+  --font-weight-bold: 800;
+
+  --color-text-fg: var(--color-grey);
+  --color-text-bg: #ffffff;
+
+  --color-page-bg: var(--color-grey);
 }
 
 @media (prefers-color-scheme: light) {
