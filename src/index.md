@@ -28,19 +28,19 @@ templateEngineOverride: njk
         <span class="profiles__itemSocials">
           <a href="https://twitter.com/{{ founder.twitterUsername }}"
             target="_blank" title="{{ founder.name }} on Twitter">
-            {% include "svg/twitter.svg" %}
+            {% include "profile_svg/twitter.svg" %}
           </a>
           <a href="https://github.com/{{ founder.githubUsername }}"
           target="_blank" title="{{ founder.name }} on Github">
-              {% include "svg/github.svg" %}
+              {% include "profile_svg/github.svg" %}
           </a>
           <a href="https://twitch.tv/{{ founder.twitchUsername }}"
             target="_blank" title="{{ founder.name }} on Twitch">
-              {% include "svg/twitch.svg" %}
+              {% include "profile_svg/twitch.svg" %}
           </a>
           <a href="{{ founder.website }}"
             target="_blank" title="{{ founder.name }}'s Website">
-              {% include "svg/globe.svg" %}
+              {% include "profile_svg/globe.svg" %}
           </a>
         </span>
       </span>
@@ -63,25 +63,25 @@ templateEngineOverride: njk
             {% if profile.twitterUsername.length > 0 %}
               <a href="https://twitter.com/{{ profile.twitterUsername }}" 
                 target="_blank" title="{{ profile.name }} on Twitter">
-                {% include "svg/twitter.svg" %}
+                {% include "profile_svg/twitter.svg" %}
               </a>
             {% endif %}
             {% if profile.githubUsername.length > 0 %}
               <a href="https://github.com/{{ profile.githubUsername }}" 
               target="_blank" title="{{ profile.name }} on Github">
-                {% include "svg/github.svg" %}
+                {% include "profile_svg/github.svg" %}
               </a>
             {% endif %}
             {% if profile.twitchUsername.length > 0 %}
               <a href="https://twitch.tv/{{ profile.twitchUsername }}" 
                 target="_blank" title="{{ profile.name }} on Twitch">
-                  {% include "svg/twitch.svg" %}
+                  {% include "profile_svg/twitch.svg" %}
               </a>
             {% endif %}
             {% if profile.website.length > 0 %}
               <a href="{{ profile.website }}" 
                 target="_blank" title="{{ profile.name }}'s Website">
-                {% include "svg/globe.svg" %}
+                {% include "profile_svg/globe.svg" %}
               </a>
             {% endif %}
           </span>

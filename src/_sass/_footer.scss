@@ -1,4 +1,70 @@
 .footer {
-  text-align: center;
-  margin: 4rem auto 1rem auto;
+  margin: 2rem auto 2rem auto;
+  max-width: var(--page-max-width);
+}
+
+.footer__links {
+  padding-inline-start: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+
+  @media screen and (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.footer__linksItem {
+}
+
+.footer__linksItemLink {
+  padding: 1rem;
+  text-decoration: none;
+  color: #fff;
+  font-family: var(--font-family-cursive);
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+  text-align: left;
+  text-transform: uppercase;
+
+  span {
+    display: flex;
+    align-self: center;
+  }
+
+  &:focus {
+    @include focus($bgColor: var(--color-page-bg));
+  }
+}
+
+.footer__linksItemLinkText {
+  min-width: 182px;
+  width: min-content;
+}
+
+.footer__copyright {
+  color: #fff;
+  font-family: var(--font-family-cursive);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footer__copyrightLink {
+  color: #fff;
+  font-family: var(--font-family-cursive);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  &:focus {
+    @include focus($bgColor: var(--color-page-bg));
+  }
 }

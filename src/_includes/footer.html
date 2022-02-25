@@ -1,1 +1,24 @@
-<footer class="footer">&copy; Salma Alam-Naylor {{ utils.year }}</footer>
+<footer class="footer">
+  <ul class="footer__links">
+    <li class="footer__linksItem">
+      <a class="footer__linksItemLink" href="https://www.11ty.dev/" target="_blank">
+        <span>{% include "footer_svg/11ty.svg" %}</span>
+        <span class="footer__linksItemLinkText">Made with Eleventy 👉</span>
+      </a>
+    </li>
+    <li class="footer__linksItem">
+      <a class="footer__linksItemLink" href="https://netlify.com" target="_blank">
+        <span>{% include "footer_svg/netlify.svg" %}</span>
+        <span class="footer__linksItemLinkText">Deployed on Netlify 👉</span>
+      </a>
+    </li>
+    <li class="footer__linksItem">
+      <a class="footer__linksItemLink" href="https://github.com/whitep4nth3r/womenofjamstack" target="_blank">
+        <span>{% include "footer_svg/github.svg" %}</span>
+        <span class="footer__linksItemLinkText">View source code 👉</span>
+      </a>
+    </li>
+  </ul>
+  <p class="footer__copyright">&copy; Salma Alam-Naylor {{ utils.year }}</p>
+  <a class="footer__copyrightLink" href="https://whitep4nth3r.com/" target="_blank">@whitep4nth3r</a>
+</footer>
