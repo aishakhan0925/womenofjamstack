@@ -1,0 +1,6 @@
+@mixin focus($bgColor: #fff) {
+  outline: transparent;
+  outline-style: solid;
+  box-shadow: $bgColor 0 0 0 0.125rem, var(--color-pink) 0 0 0 0.375rem;
+  transition: box-shadow 0.2s ease-in-out;
+}

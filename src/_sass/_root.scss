@@ -35,16 +35,23 @@
 
   --border-radius-base: 1rem;
 
-  --font-family-heading: "Bungee", cursive;
-  --font-family-body: "Roboto Slab", serif;
+  --font-family-cursive: "Bungee", cursive;
+  --font-family-serif: "Roboto Slab", serif;
 
   --font-weight-normal: 300;
   --font-weight-bold: 800;
+
+  --color-hero-text: #ffffff;
 
   --color-text-fg: var(--color-grey);
   --color-text-bg: #ffffff;
 
   --color-page-bg: var(--color-grey);
+
+  --color-button-bg: #ac005a;
+  --color-button-bg-alt: #005d83;
+
+  --page-max-width: 1300px;
 }
 
 @media (prefers-color-scheme: light) {
