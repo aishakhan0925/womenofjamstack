@@ -1,6 +1,8 @@
 <div class="members">
-  <span class="members__top">Members</span>
-  <span class="members__count" data-count>{{ memberCount }}</span>
+  <span class="members__top" aria-hidden="true">Members</span>
+  <span class="members__count" data-count aria-label="{{ memberCount }} women of Jamstack members">
+    {{ memberCount }}
+  </span>
 </div>
 
 <script>
