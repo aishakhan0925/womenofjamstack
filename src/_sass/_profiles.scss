@@ -46,8 +46,8 @@
 }
 
 .profiles__founderLabel {
+  @include font_cursive;
   color: #fff;
-  font-family: var(--font-family-cursive);
   font-size: 1.3rem;
   text-transform: uppercase;
   position: absolute;
@@ -82,18 +82,18 @@
 }
 
 .profiles__itemName {
+  @include font_bold;
   margin-bottom: 0.75rem;
   color: var(--color-text-fg);
-  font-family: var(--font-heading);
 }
 
 .profiles__itemBio {
+  @include font_bold;
   color: var(--color-text-fg);
   margin-bottom: 0.75rem;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  font-weight: var(--font-weight-bold);
   word-break: break-word;
 }
 

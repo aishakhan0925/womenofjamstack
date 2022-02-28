@@ -33,6 +33,7 @@
   --border-radius-base: 1rem;
   --font-family-cursive: "Bungee", cursive;
   --font-family-serif: "Roboto Slab", serif;
+  --font-family-bold: "Roboto Slab Bold", serif;
   --font-weight-normal: 300;
   --font-weight-bold: 800;
   --color-hero-text: #ffffff;
@@ -95,6 +96,30 @@ img {
   height: auto;
 }
 
+@font-face {
+  font-family: "Bungee";
+  src: url("/fonts/bungee.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("/fonts/robotoslab-light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto Slab Bold";
+  src: url("/fonts/robotoslab-extrabold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
 .header {
   padding: 1rem;
   margin-bottom: 1rem;
@@ -145,10 +170,11 @@ img {
 }
 
 .footer__linksItemLink {
+  font-weight: normal;
+  font-family: var(--font-family-cursive);
   padding: 1rem;
   text-decoration: none;
   color: #fff;
-  font-family: var(--font-family-cursive);
   font-size: 1.3rem;
   display: flex;
   flex-direction: row;
@@ -161,6 +187,7 @@ img {
 .footer__linksItemLink span {
   display: flex;
   align-self: center;
+  line-height: 1.2;
 }
 .footer__linksItemLink:focus {
   outline: transparent;
@@ -175,16 +202,18 @@ img {
 }
 
 .footer__copyright {
-  color: #fff;
+  font-weight: normal;
   font-family: var(--font-family-cursive);
+  color: #fff;
   font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 
 .footer__copyrightLink {
-  color: #fff;
+  font-weight: normal;
   font-family: var(--font-family-cursive);
+  color: #fff;
   font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
@@ -243,8 +272,9 @@ img {
 }
 
 .profiles__founderLabel {
-  color: #fff;
+  font-weight: normal;
   font-family: var(--font-family-cursive);
+  color: #fff;
   font-size: 1.3rem;
   text-transform: uppercase;
   position: absolute;
@@ -278,18 +308,20 @@ img {
 }
 
 .profiles__itemName {
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-bold);
   margin-bottom: 0.75rem;
   color: var(--color-text-fg);
-  font-family: var(--font-heading);
 }
 
 .profiles__itemBio {
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-bold);
   color: var(--color-text-fg);
   margin-bottom: 0.75rem;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  font-weight: var(--font-weight-bold);
   word-break: break-word;
 }
 
@@ -321,8 +353,8 @@ img {
 }
 
 .hero__contentHeadline {
-  font-family: var(--font-family-serif);
   font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-bold);
   color: var(--color-hero-text);
   font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1.2;
@@ -330,6 +362,7 @@ img {
 }
 
 .hero__contentByline {
+  font-weight: var(--font-weight-normal);
   font-family: var(--font-family-serif);
   color: var(--color-hero-text);
   font-size: clamp(1.2rem, 1.8vw, 1.8rem);
@@ -359,6 +392,7 @@ img {
   padding: 1rem;
   font-size: 1.5rem;
   text-align: center;
+  line-height: 1;
 }
 .hero__button:focus {
   outline: transparent;

@@ -12,12 +12,11 @@
   }
 }
 
-.hero__content {
-}
+// .hero__content {
+// }
 
 .hero__contentHeadline {
-  font-family: var(--font-family-serif);
-  font-weight: var(--font-weight-bold);
+  @include font_bold;
   color: var(--color-hero-text);
   font-size: clamp(2rem, 3vw, 3rem);
   line-height: 1.2;
@@ -25,15 +24,15 @@
 }
 
 .hero__contentByline {
-  font-family: var(--font-family-serif);
+  @include font_main;
   color: var(--color-hero-text);
   font-size: clamp(1.2rem, 1.8vw, 1.8rem);
   line-height: 1.3;
   margin-bottom: 4rem;
 }
 
-.hero__card {
-}
+// .hero__card {
+// }
 
 .hero__buttons {
   display: flex;
@@ -56,6 +55,7 @@
   padding: 1rem;
   font-size: 1.5rem;
   text-align: center;
+  line-height: 1;
 
   &:focus {
     @include focus($bgColor: var(--color-page-bg));

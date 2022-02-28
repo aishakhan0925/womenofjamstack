@@ -22,10 +22,10 @@
 }
 
 .footer__linksItemLink {
+  @include font_cursive;
   padding: 1rem;
   text-decoration: none;
   color: #fff;
-  font-family: var(--font-family-cursive);
   font-size: 1.3rem;
   display: flex;
   flex-direction: row;
@@ -38,6 +38,7 @@
   span {
     display: flex;
     align-self: center;
+    line-height: 1.2;
   }
 
   &:focus {
@@ -51,16 +52,16 @@
 }
 
 .footer__copyright {
+  @include font_cursive;
   color: #fff;
-  font-family: var(--font-family-cursive);
   font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
 
 .footer__copyrightLink {
+  @include font_cursive;
   color: #fff;
-  font-family: var(--font-family-cursive);
   font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 1rem;

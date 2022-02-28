@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Bungee";
+  src: url("/fonts/bungee.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: url("/fonts/robotoslab-light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Slab Bold";
+  src: url("/fonts/robotoslab-extrabold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+
+@mixin font_main {
+  font-weight: var(--font-weight-normal);
+  font-family: var(--font-family-serif);
+}
+
+@mixin font_bold {
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-bold);
+}
+
+@mixin font_cursive {
+  font-weight: normal;
+  font-family: var(--font-family-cursive);
+}
