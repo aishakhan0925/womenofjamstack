@@ -1,5 +1,5 @@
 .hero {
-  max-width: 1180px;
+  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4rem;
@@ -18,7 +18,7 @@
 .hero__contentHeadline {
   @include font_bold;
   color: var(--color-hero-text);
-  font-size: clamp(2rem, 3vw, 3rem);
+  font-size: clamp(2rem, 2.6vw, 2.6rem);
   line-height: 1.2;
   margin-bottom: 2rem;
 }
@@ -26,7 +26,7 @@
 .hero__contentByline {
   @include font_main;
   color: var(--color-hero-text);
-  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  font-size: clamp(1.2rem, 1.6vw, 1.6rem);
   line-height: 1.3;
   margin-bottom: 4rem;
 }
@@ -53,7 +53,7 @@
   text-transform: uppercase;
   border-radius: var(--border-radius-base);
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   line-height: 1;
 

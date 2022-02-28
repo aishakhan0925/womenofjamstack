@@ -89,6 +89,7 @@
 
 .profiles__itemName {
   @include font_bold;
+  font-size: 1.4rem;
   margin-bottom: 0.75rem;
   color: var(--color-text-fg);
 }
@@ -96,6 +97,7 @@
 .profiles__itemBio {
   @include font_bold;
   color: var(--color-text-fg);
+  font-size: 0.9rem;
   margin-bottom: 0.75rem;
   display: flex;
   flex-direction: column;
@@ -104,8 +106,10 @@
 }
 
 .profiles__itemJob {
+  @include font_main;
   color: var(--color-text-fg);
   margin-bottom: 1.75rem;
+  font-size: 1rem;
 }
 
 .profiles__itemSocials {
@@ -123,7 +127,7 @@
   text-transform: uppercase;
   border-radius: var(--border-radius-base);
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   line-height: 1;
   width: 100%;

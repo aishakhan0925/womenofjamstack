@@ -42,7 +42,7 @@
   --color-page-bg: var(--color-grey);
   --color-button-bg: #ac005a;
   --color-button-bg-alt: #005d83;
-  --page-max-width: 1300px;
+  --page-max-width: 1200px;
 }
 
 * {
@@ -144,7 +144,7 @@ img {
 }
 @media screen and (min-width: 900px) {
   .header {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 }
 
@@ -175,7 +175,7 @@ img {
   padding: 1rem;
   text-decoration: none;
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -205,7 +205,7 @@ img {
   font-weight: normal;
   font-family: var(--font-family-cursive);
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -214,7 +214,7 @@ img {
   font-weight: normal;
   font-family: var(--font-family-cursive);
   color: #fff;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   text-transform: uppercase;
   margin-bottom: 1rem;
 }
@@ -316,6 +316,7 @@ img {
 .profiles__itemName {
   font-weight: var(--font-weight-bold);
   font-family: var(--font-family-bold);
+  font-size: 1.4rem;
   margin-bottom: 0.75rem;
   color: var(--color-text-fg);
 }
@@ -324,6 +325,7 @@ img {
   font-weight: var(--font-weight-bold);
   font-family: var(--font-family-bold);
   color: var(--color-text-fg);
+  font-size: 0.9rem;
   margin-bottom: 0.75rem;
   display: flex;
   flex-direction: column;
@@ -332,8 +334,11 @@ img {
 }
 
 .profiles__itemJob {
+  font-weight: var(--font-weight-normal);
+  font-family: var(--font-family-serif);
   color: var(--color-text-fg);
   margin-bottom: 1.75rem;
+  font-size: 1rem;
 }
 
 .profiles__itemSocials {
@@ -351,7 +356,7 @@ img {
   text-transform: uppercase;
   border-radius: var(--border-radius-base);
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   line-height: 1;
   width: 100%;
@@ -364,7 +369,7 @@ img {
 }
 
 .hero {
-  max-width: 1180px;
+  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 4rem;
@@ -382,7 +387,7 @@ img {
   font-weight: var(--font-weight-bold);
   font-family: var(--font-family-bold);
   color: var(--color-hero-text);
-  font-size: clamp(2rem, 3vw, 3rem);
+  font-size: clamp(2rem, 2.6vw, 2.6rem);
   line-height: 1.2;
   margin-bottom: 2rem;
 }
@@ -391,7 +396,7 @@ img {
   font-weight: var(--font-weight-normal);
   font-family: var(--font-family-serif);
   color: var(--color-hero-text);
-  font-size: clamp(1.2rem, 1.8vw, 1.8rem);
+  font-size: clamp(1.2rem, 1.6vw, 1.6rem);
   line-height: 1.3;
   margin-bottom: 4rem;
 }
@@ -416,7 +421,7 @@ img {
   text-transform: uppercase;
   border-radius: var(--border-radius-base);
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   line-height: 1;
 }
