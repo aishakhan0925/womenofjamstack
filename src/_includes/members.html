@@ -1,0 +1,27 @@
+<div class="members">
+  <span class="members__top">Members</span>
+  <span class="members__count" data-count>{{ memberCount }}</span>
+</div>
+
+<script>
+  function addLeadingZeros(num, totalLength) {
+    return String(num).padStart(totalLength, "0");
+  }
+
+  const countEl = document.querySelector("[data-count]");
+  const rawCount = countEl.innerText;
+  const count = addLeadingZeros(rawCount, 3);
+  const splitCount = Array.from(count);
+  countEl.innerText = "";
+
+  for (let i = 0; i < splitCount.length; i++) {
+    let newEl = document.createElement("span");
+    newEl.innerText = splitCount[i];
+    newEl.classList = "members__digit";
+    countEl.appendChild(newEl);
+  }
+
+  const separator = document.createElement("span");
+  separator.classList = "members__separator";
+  countEl.appendChild(separator);
+</script>

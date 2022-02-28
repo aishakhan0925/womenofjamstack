@@ -31,8 +31,11 @@
   margin-bottom: 4rem;
 }
 
-// .hero__card {
-// }
+.hero__card {
+  @media screen and (min-width: 900px) {
+    margin-top: 4rem;
+  }
+}
 
 .hero__buttons {
   display: flex;

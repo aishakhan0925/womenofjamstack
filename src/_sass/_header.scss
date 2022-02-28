@@ -5,19 +5,22 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   max-width: var(--page-max-width);
 
   svg {
     width: 100%;
+    margin-bottom: 2rem;
   }
 
   @media screen and (min-width: 768px) {
     align-items: flex-start;
+    flex-direction: row;
 
     svg {
       width: unset;
+      margin: unset;
     }
   }
 
@@ -25,3 +28,9 @@
     margin-bottom: 3rem;
   }
 }
+
+// .header__logo {
+// }
+
+// .header__members {
+// }
