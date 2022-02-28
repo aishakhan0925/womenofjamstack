@@ -72,6 +72,12 @@
   }
 }
 
+.profiles__itemImgWrapper--blank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .profiles__itemTextWrapper {
   background-color: var(--color-text-bg);
   border-radius: var(--border-radius-base);
@@ -107,4 +113,22 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+}
+
+.profiles__ctaButton {
+  color: #fff;
+  background-color: var(--color-grey);
+  text-decoration: none;
+  font-family: var(--font-family-cursive);
+  text-transform: uppercase;
+  border-radius: var(--border-radius-base);
+  padding: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1;
+  width: 100%;
+
+  &:focus {
+    @include focus;
+  }
 }

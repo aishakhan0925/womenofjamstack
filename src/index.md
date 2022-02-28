@@ -89,5 +89,18 @@ templateEngineOverride: njk
         </span>
       </li>
     {% endfor %}
+      <li class="profiles__item">
+        <span class="profiles__itemImgWrapper profiles__itemImgWrapper--blank">
+         {% include "profile_svg/user.svg" %}
+        </span>
+        <span class="profiles__itemTextWrapper">
+          <h2 class="profiles__itemName">Your Name Here</h2>
+          <p class="profiles__itemBio">Do you work with the Jamstack and adjacent technologies? You should feature on Women of Jamstack!</p>
+          <p class="profiles__itemJob">Submit a PR on GitHub 👇</p>
+           <span class="profiles__itemSocials">
+            <a class="profiles__ctaButton" href="https://github.com/whitep4nth3r/womenofjamstack" target="_blank">Add your profile</a>
+          </span>
+        </span>
+      </li>
   </ul>
 </section>
