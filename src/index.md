@@ -22,7 +22,7 @@ eleventyComputed:
     <div class="profiles__item profiles__item--founder">
       <span class="profiles__founderLabel">Founder</span>
       <span class="profiles__itemImgWrapper">
-        <img src="/images/founder.jpg" alt="{{ founder.name }}" />
+        {% image "./src/_data/images/founder.jpeg", founder.name %}
       </span>
       <span class="profiles__itemTextWrapper">
         <h2 class="profiles__itemName">{{ founder.name }}</h2>
@@ -56,7 +56,7 @@ eleventyComputed:
   {% for key, profile in profiles %}
       <li class="profiles__item">
         <span class="profiles__itemImgWrapper">
-          <img src="/images/{{ key }}.jpg" alt="{{ profile.name }}" />
+         {% image "./src/_data/images/" + key + ".jpeg", profile.name %}
         </span>
         <span class="profiles__itemTextWrapper">
           <h2 class="profiles__itemName">{{ profile.name }}</h2>
