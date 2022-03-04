@@ -6,7 +6,7 @@ metaDescription:
   next generation of developers in an industry that still suffers from devastating gender inequality.
 templateEngineOverride: njk
 eleventyComputed:
-  memberCount: "{{ profiles | length }}"
+  memberCount: "{{ profiles | length + 1 }}"
 ---
 
 <section class="hero">
