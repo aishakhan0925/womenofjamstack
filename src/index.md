@@ -12,7 +12,7 @@ eleventyComputed:
 <section class="hero">
   <div class="hero__content">
     <h1 class="hero__contentHeadline">Celebrating the women who are working with the Jamstack</h1>
-    <p  class="hero__contentByline">Inspiring the next generation of developers in an industry that still suffers from devastating gender inequality.</p>
+    <p  class="hero__contentByline">And inspiring the next generation of developers in an industry that still suffers from devastating gender inequality.</p>
     <div class="hero__buttons">
       <a href="https://github.com/whitep4nth3r/womenofjamstack#readme" target="_blank" class="hero__button">Add your profile</a>
       <a href="https://jamstack.org/discord" target="_blank" class="hero__button hero__button--alt">Join the discord</a>
