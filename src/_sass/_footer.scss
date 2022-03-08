@@ -63,8 +63,10 @@
   @include font_cursive;
   color: #fff;
   font-size: 1.2rem;
+  line-height: 1.4;
   text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
 
   &:focus {
     @include focus($bgColor: var(--color-page-bg));
