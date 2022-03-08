@@ -21,7 +21,7 @@ to the site!
 {
   "name": "Your name", // required
   "jobTitle": "Your job title", // required
-  "company": "Your company", // required
+  "company": "Your company", // optional
   "bio": "A short bio, around the length of a Twitter bio.", // required
   "githubUsername": "yourGitHubUsername", // optional
   "twitterUsername": "yourTwitterUsername", // optional

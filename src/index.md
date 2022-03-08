@@ -61,7 +61,7 @@ eleventyComputed:
         <span class="profiles__itemTextWrapper">
           <h2 class="profiles__itemName">{{ profile.name }}</h2>
           <p class="profiles__itemBio">{{ profile.bio }}</p>
-          <p class="profiles__itemJob">{{ profile.jobTitle }} @ {{ profile.company }}</p>
+          <p class="profiles__itemJob">{{ profile.jobTitle }} {% if profile.company.length > 0 %} @ {{ profile.company }}{% endif %}</p>
           <span class="profiles__itemSocials">
             {% if profile.twitterUsername.length > 0 %}
               <a href="https://twitter.com/{{ profile.twitterUsername }}" 
