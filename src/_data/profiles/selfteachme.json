@@ -1,12 +1,10 @@
-// src/_data/profiles/selfteachme.json
-
 {
-  "name": "Amy Dutton", // required
-  "jobTitle": "Director of Design", // required
-  "company": "ZEAL", // required
-  "bio": "I love teaching designers how to code and developers how to design.", // required
-  "githubUsername": "ahaywood", // optional
-  "twitterUsername": "selfteachme", // optional
-  "twitchUsername": "selfteachme", // optional
-  "website": "https://selfteach.me/" // optional
+  "name": "Amy Dutton", 
+  "jobTitle": "Director of Design", 
+  "company": "ZEAL", 
+  "bio": "I love teaching designers how to code and developers how to design.",
+  "githubUsername": "ahaywood",
+  "twitterUsername": "selfteachme",
+  "twitchUsername": "selfteachme",
+  "website": "https://selfteach.me/"
 }
