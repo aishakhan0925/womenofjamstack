@@ -319,10 +319,11 @@ img {
 }
 
 .profiles__itemName {
-  font-weight: var(--font-weight-bold);
-  font-family: var(--font-family-bold);
+  font-weight: normal;
+  font-family: var(--font-family-cursive);
   font-size: 1.4rem;
   margin-bottom: 0.75rem;
+  line-height: 1;
   color: var(--color-text-fg);
 }
 

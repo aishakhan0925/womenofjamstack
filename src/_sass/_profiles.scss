@@ -88,9 +88,10 @@
 }
 
 .profiles__itemName {
-  @include font_bold;
+  @include font_cursive;
   font-size: 1.4rem;
   margin-bottom: 0.75rem;
+  line-height: 1;
   color: var(--color-text-fg);
 }
 
