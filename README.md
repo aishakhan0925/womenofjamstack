@@ -13,7 +13,7 @@ to the site!
 
 2. Navigate to `src/_data/profiles` and create a new `[yourIdentifier].json` file.
 
-3. Add your details:
+3. Add your details and **REMEMBER TO REMOVE ALL COMMENTS FROM YOUR JSON FILE! (e.g. // optional)**
 
 ```json
 // src/_data/profiles/[yourIdentifier].json
@@ -30,13 +30,14 @@ to the site!
 }
 ```
 
-4. Navigate to `src/_data/images` and add a 
+4. Navigate to `src/_data/images` and add a
 
 - **SQUARE**
 - high quality JPEG image
-- named `[yourIdentifier.jpeg]`. 
-- Please note the `.jpeg` extension and NOT `.jpg`. 
-- The Eleventy image plugin will automatically convert and optimise your image for different browsers, screen sizes and DPR.
+- named `[yourIdentifier.jpeg]`.
+- Please note the `.jpeg` extension and NOT `.jpg`.
+- The Eleventy image plugin will automatically convert and optimise your image for different browsers, screen sizes and
+  DPR.
 
 5. Commit and push your changes, and open up a PR!
 
