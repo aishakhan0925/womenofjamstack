@@ -1,7 +1,7 @@
 {
-    "name": "Elaine May", // required
-    "jobTitle": "Senior Engineering Manager", // required
-    "company": "Netlify", // optional
-    "bio": "Collaborative and suportive engineering leader, life-long learner.", // required
-    "githubUsername": "elmay-netlify", // optional
+    "name": "Elaine May",
+    "jobTitle": "Senior Engineering Manager",
+    "company": "Netlify",
+    "bio": "Collaborative and suportive engineering leader, life-long learner.",
+    "githubUsername": "elmay-netlify",
   }
