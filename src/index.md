@@ -14,39 +14,7 @@ eleventyComputed:
     <h1 class="hero__contentHeadline">Celebrating the women who are working with the Jamstack</h1>
     <p  class="hero__contentByline">And inspiring the next generation of developers in an industry that still suffers from devastating gender inequality.</p>
     <div class="hero__buttons">
-      <a href="https://github.com/whitep4nth3r/womenofjamstack#readme" target="_blank" class="hero__button">Add your profile</a>
       <a href="https://jamstack.org/discord" target="_blank" class="hero__button hero__button--alt">Join the discord</a>
-    </div>
-  </div>
-  <div class="hero__card">
-    <div class="profiles__item profiles__item--founder">
-      <span class="profiles__founderLabel">Founder</span>
-      <span class="profiles__itemImgWrapper">
-        {% image "./src/_data/images/founder.jpeg", founder.name, "eager" %}
-      </span>
-      <span class="profiles__itemTextWrapper">
-        <h2 class="profiles__itemName">{{ founder.name }}</h2>
-        <p class="profiles__itemBio">{{ founder.bio }}</p>
-        <p class="profiles__itemJob">{{ founder.jobTitle }} @ {{ founder.company }}</p>
-        <span class="profiles__itemSocials">
-          <a href="https://twitter.com/{{ founder.twitterUsername }}"
-            target="_blank" title="{{ founder.name }} on Twitter">
-            {% include "profile_svg/twitter.svg" %}
-          </a>
-          <a href="https://github.com/{{ founder.githubUsername }}"
-          target="_blank" title="{{ founder.name }} on Github">
-              {% include "profile_svg/github.svg" %}
-          </a>
-          <a href="https://twitch.tv/{{ founder.twitchUsername }}"
-            target="_blank" title="{{ founder.name }} on Twitch">
-              {% include "profile_svg/twitch.svg" %}
-          </a>
-          <a href="{{ founder.website }}"
-            target="_blank" title="{{ founder.name }}'s Website">
-              {% include "profile_svg/globe.svg" %}
-          </a>
-        </span>
-      </span>
     </div>
   </div>
 </section>
@@ -91,18 +59,5 @@ eleventyComputed:
         </span>
       </li>
     {% endfor %}
-      <li class="profiles__item">
-        <span class="profiles__itemImgWrapper profiles__itemImgWrapper--blank">
-         {% include "profile_svg/user.svg" %}
-        </span>
-        <span class="profiles__itemTextWrapper">
-          <h2 class="profiles__itemName">Your Name Here</h2>
-          <p class="profiles__itemBio">Do you work with the Jamstack and adjacent technologies? You should feature on Women of Jamstack!</p>
-          <p class="profiles__itemJob">Submit a PR on GitHub 👇</p>
-           <span class="profiles__itemSocials">
-            <a class="profiles__ctaButton" href="https://github.com/whitep4nth3r/womenofjamstack" target="_blank">Add your profile</a>
-          </span>
-        </span>
-      </li>
   </ul>
 </section>
