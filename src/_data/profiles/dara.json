@@ -1,0 +1,9 @@
+{
+  "name": "Dara Pressley", // required
+  "jobTitle": "Director of User Experience", // required
+  "company": "ICF", // optional
+  "bio": "I love creating art and techonology to bring usefulness and joy.", // required
+  "githubUsername": "uxdiva", // optional
+  "twitterUsername": "uxdiva", // optional
+  "website": "https://darapressley.com/" // optional
+}
